@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>kal2_trajectory_planner</name>
+  <version>0.0.0</version>
+  <description>todo</description>
+
+  <license>todo</license>
+  <maintainer email="todo@todo.com">todo Firstname Lastname</maintainer>
+  <author email="todo@todo.com">todo Firstname Lastname</author>
+  <url type="repository">https://gitlab.mrt.kit.edu/kognitive_automobile_labor/templates/template_library</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>mrt_cmake_modules</build_depend>
+  <test_depend>gtest</test_depend>
+
+ <depend>eigen</depend>
+
+
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+  </export>
+</package>

@@ -1,0 +1,31 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S "/Users/sunzhen/Library/Mobile Documents/com~apple~CloudDocs/KAL/kal2_trajectory_planner" -B "/Users/sunzhen/Library/Mobile Documents/com~apple~CloudDocs/KAL/kal2_trajectory_planner/cmake-build-debug"
+-- The C compiler identification is AppleClang 15.0.0.15000100
+-- The CXX compiler identification is AppleClang 15.0.0.15000100
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Library/Developer/CommandLineTools/usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Error at CMakeLists.txt:9 (find_package):
+  By not providing "Findmrt_cmake_modules.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "mrt_cmake_modules", but CMake did not find one.
+
+  Could not find a package configuration file provided by "mrt_cmake_modules"
+  with any of the following names:
+
+    mrt_cmake_modulesConfig.cmake
+    mrt_cmake_modules-config.cmake
+
+  Add the installation prefix of "mrt_cmake_modules" to CMAKE_PREFIX_PATH or
+  set "mrt_cmake_modules_DIR" to a directory containing one of the above
+  files.  If "mrt_cmake_modules" provides a separate development package or
+  SDK, be sure it has been installed.
+
+
+-- Configuring incomplete, errors occurred!
